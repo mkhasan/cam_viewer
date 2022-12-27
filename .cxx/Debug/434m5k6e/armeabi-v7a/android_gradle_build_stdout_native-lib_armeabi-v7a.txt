@@ -1,0 +1,214 @@
+ninja: Entering directory `/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/434m5k6e/armeabi-v7a'
+[1/6] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/convert.cpp.o
+[2/6] Building C object CMakeFiles/native-lib.dir/src/main/cpp/queue.c.o
+../../../../src/main/cpp/queue.c:75:5: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+    memset(queue->tab, 0, sizeof(*queue->tab) * size);
+    ^
+../../../../src/main/cpp/queue.c:75:5: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+1 warning generated.
+[3/6] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[4/6] Building C object CMakeFiles/native-lib.dir/src/main/cpp/decode.c.o
+../../../../src/main/cpp/decode.c:49:47: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+        *decoder_data = (struct DecoderData) {player: player, stream_no: i};
+                                              ^~~~~~~
+                                              .player = 
+../../../../src/main/cpp/decode.c:49:63: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+        *decoder_data = (struct DecoderData) {player: player, stream_no: i};
+                                                              ^~~~~~~~~~
+                                                              .stream_no = 
+../../../../src/main/cpp/decode.c:152:31: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+        struct State state = {player: player, env:env};
+                              ^~~~~~~
+                              .player = 
+../../../../src/main/cpp/decode.c:152:47: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+        struct State state = {player: player, env:env};
+                                              ^~~~
+                                              .env = 
+../../../../src/main/cpp/decode.c:170:13: warning: 'av_free_packet' is deprecated [-Wdeprecated-declarations]
+            av_free_packet(packet_data->packet);
+            ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavcodec/avcodec.h:4472:1: note: 'av_free_packet' has been explicitly marked deprecated here
+attribute_deprecated
+^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+../../../../src/main/cpp/decode.c:190:17: warning: 'av_free_packet' is deprecated [-Wdeprecated-declarations]
+                av_free_packet(to_free->packet);
+                ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavcodec/avcodec.h:4472:1: note: 'av_free_packet' has been explicitly marked deprecated here
+attribute_deprecated
+^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+../../../../src/main/cpp/decode.c:281:15: warning: 'avcodec_decode_video2' is deprecated [-Wdeprecated-declarations]
+    int ret = avcodec_decode_video2(ctx, frame, &frameFinished,
+              ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavcodec/avcodec.h:4811:1: note: 'avcodec_decode_video2' has been explicitly marked deprecated here
+attribute_deprecated
+^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+../../../../src/main/cpp/decode.c:338:5: warning: 'avpicture_fill' is deprecated [-Wdeprecated-declarations]
+    avpicture_fill((AVPicture *) rgb_frame, buffer.bits, out_format,
+    ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavcodec/avcodec.h:5452:1: note: 'avpicture_fill' has been explicitly marked deprecated here
+attribute_deprecated
+^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+../../../../src/main/cpp/decode.c:779:13: warning: 'av_dup_packet' is deprecated [-Wdeprecated-declarations]
+        if (av_dup_packet(packet_data->packet) < 0) {
+            ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavcodec/avcodec.h:4449:1: note: 'av_dup_packet' has been explicitly marked deprecated here
+attribute_deprecated
+^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+../../../../src/main/cpp/decode.c:792:9: warning: 'av_free_packet' is deprecated [-Wdeprecated-declarations]
+        av_free_packet(pkt);
+        ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavcodec/avcodec.h:4472:1: note: 'av_free_packet' has been explicitly marked deprecated here
+attribute_deprecated
+^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+../../../../src/main/cpp/decode.c:874:20: warning: 'av_free_packet' is deprecated [-Wdeprecated-declarations]
+        skip_loop: av_free_packet(pkt);
+                   ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavcodec/avcodec.h:4472:1: note: 'av_free_packet' has been explicitly marked deprecated here
+attribute_deprecated
+^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+11 warnings generated.
+[5/6] Building C object CMakeFiles/native-lib.dir/src/main/cpp/player.c.o
+../../../../src/main/cpp/player.c:184:28: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+    struct State state = { player: player, env: env};
+                           ^~~~~~~
+                           .player = 
+../../../../src/main/cpp/player.c:184:44: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+    struct State state = { player: player, env: env};
+                                           ^~~~
+                                           .env = 
+../../../../src/main/cpp/player.c:218:16: warning: implicit declaration of function 'player_create_context' is invalid in C99 [-Wimplicit-function-declaration]
+    if ((err = player_create_context(player)) < 0) {
+               ^
+../../../../src/main/cpp/player.c:229:16: warning: implicit declaration of function 'player_create_interrupt_callback' is invalid in C99 [-Wimplicit-function-declaration]
+    if ((err = player_create_interrupt_callback(player)) < 0)
+               ^
+../../../../src/main/cpp/player.c:239:16: warning: implicit declaration of function 'player_find_stream_info' is invalid in C99 [-Wimplicit-function-declaration]
+    if ((err = player_find_stream_info(player)) < 0)
+               ^
+../../../../src/main/cpp/player.c:299:49: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+    struct DecoderState video_decoder_state = { stream_no
+                                                ^~~~~~~~~
+                                                .stream_no = 
+../../../../src/main/cpp/player.c:300:32: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+    : player->video_stream_no, player: player, env:state->env};
+                               ^~~~~~~
+                               .player = 
+../../../../src/main/cpp/player.c:300:48: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+    : player->video_stream_no, player: player, env:state->env};
+                                               ^~~~
+                                               .env = 
+../../../../src/main/cpp/player.c:340:5: warning: implicit declaration of function 'player_start_decoding_threads_free' is invalid in C99 [-Wimplicit-function-declaration]
+    player_start_decoding_threads_free(player);
+    ^
+../../../../src/main/cpp/player.c:411:5: warning: implicit declaration of function 'player_start_decoding_threads_free' is invalid in C99 [-Wimplicit-function-declaration]
+    player_start_decoding_threads_free(player);
+    ^
+../../../../src/main/cpp/player.c:533:21: warning: implicit declaration of function 'player_try_open_stream' is invalid in C99 [-Wimplicit-function-declaration]
+    int bn_stream = player_try_open_stream(player, codec_type,
+                    ^
+../../../../src/main/cpp/player.c:553:52: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+    player->input_codec_ctxs[streams_no] = stream->codec;
+                                                   ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavformat/avformat.h:892:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+../../../../src/main/cpp/player.c:577:35: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+    AVCodecContext *ctx = stream->codec;
+                                  ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavformat/avformat.h:892:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+../../../../src/main/cpp/player.c:583:15: warning: implicit declaration of function 'player_open_stream' is invalid in C99 [-Wimplicit-function-declaration]
+    int err = player_open_stream(player, ctx, &codec, stream_no);
+              ^
+../../../../src/main/cpp/player.c:644:20: warning: 'avpicture_get_size' is deprecated [-Wdeprecated-declarations]
+    int numBytes = avpicture_get_size(AV_PIX_FMT_RGBA, ctx->width, ctx->height);
+                   ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavcodec/avcodec.h:5467:1: note: 'avpicture_get_size' has been explicitly marked deprecated here
+attribute_deprecated
+^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+../../../../src/main/cpp/player.c:655:5: warning: 'avpicture_fill' is deprecated [-Wdeprecated-declarations]
+    avpicture_fill((AVPicture *) player->tmp_frame, player->tmp_buffer,
+    ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavcodec/avcodec.h:5452:1: note: 'avpicture_fill' has been explicitly marked deprecated here
+attribute_deprecated
+^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+../../../../src/main/cpp/player.c:657:5: warning: 'avpicture_fill' is deprecated [-Wdeprecated-declarations]
+    avpicture_fill((AVPicture *) player->tmp_frame2, player->tmp_buffer2,
+    ^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavcodec/avcodec.h:5452:1: note: 'avpicture_fill' has been explicitly marked deprecated here
+attribute_deprecated
+^
+/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+../../../../src/main/cpp/player.c:852:21: warning: format specifies type 'long' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
+                 i, stream->duration);
+                    ^~~~~~~~~~~~~~~~
+../../../../src/main/cpp/player.h:57:98: note: expanded from macro 'LOGI'
+#define LOGI(level, ...) if (level <= LOG_LEVEL) {__android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__);}
+                                                                                                 ^~~~~~~~~~~
+../../../../src/main/cpp/player.c:860:14: warning: format specifies type 'long' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
+             player->input_format_ctx->duration)
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/cpp/player.h:57:98: note: expanded from macro 'LOGI'
+#define LOGI(level, ...) if (level <= LOG_LEVEL) {__android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__);}
+                                                                                                 ^~~~~~~~~~~
+../../../../src/main/cpp/player.c:870:72: warning: format specifies type 'long' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
+                 "player_set_data_source stream[%d] duration: %ld", i, stream->duration);
+                                                              ~~~      ^~~~~~~~~~~~~~~~
+                                                              %lld
+../../../../src/main/cpp/player.h:57:98: note: expanded from macro 'LOGI'
+#define LOGI(level, ...) if (level <= LOG_LEVEL) {__android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__);}
+                                                                                                 ^~~~~~~~~~~
+../../../../src/main/cpp/player.c:1055:27: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+    struct State state = {player: player, env: env};
+                          ^~~~~~~
+                          .player = 
+../../../../src/main/cpp/player.c:1055:43: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+    struct State state = {player: player, env: env};
+                                          ^~~~
+                                          .env = 
+../../../../src/main/cpp/player.c:1098:27: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+    struct State state = {player: player, env: env};
+                          ^~~~~~~
+                          .player = 
+../../../../src/main/cpp/player.c:1098:43: warning: use of GNU old-style field designator extension [-Wgnu-designator]
+    struct State state = {player: player, env: env};
+                                          ^~~~
+                                          .env = 
+24 warnings generated.
+[6/6] Linking CXX shared library ../../../../build/intermediates/cxx/Debug/434m5k6e/obj/armeabi-v7a/libnative-lib.so

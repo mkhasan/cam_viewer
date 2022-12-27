@@ -1,0 +1,23 @@
+                    Executable : /opt/Android/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=23
+-DANDROID_PLATFORM=android-23
+-DANDROID_ABI=armeabi-v7a
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DANDROID_NDK=/opt/Android/ndk/21.4.7075529
+-DCMAKE_ANDROID_NDK=/opt/Android/ndk/21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=/opt/Android/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/opt/Android/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/build/intermediates/cxx/Debug/434m5k6e/obj/armeabi-v7a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/build/intermediates/cxx/Debug/434m5k6e/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-B/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/434m5k6e/armeabi-v7a
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

@@ -1,0 +1,13 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/b5u3wc5r/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/hasan/extension/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_54c2d"
+[1/2] Building C object CMakeFiles/cmTC_54c2d.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_54c2d.dir/testCCompiler.c.o 
+/home/hasan/extension/Android/Sdk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --target=armv7-none-linux-androideabi --sysroot=/home/hasan/extension/Android/Sdk/android-ndk-r14b/platforms/android-23/arch-arm  -isystem /home/hasan/extension/Android/Sdk/android-ndk-r14b/platforms/android-23/arch-arm/usr/include -isystem /home/hasan/extension/Android/Sdk/android-ndk-r14b/platforms/android-23/arch-arm/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIE -o CMakeFiles/cmTC_54c2d.dir/testCCompiler.c.o   -c testCCompiler.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-fno-integrated-as'
+arm-linux-androideabi-gcc: error: unrecognized command line option '-fno-integrated-as'
+arm-linux-androideabi-gcc: error: unrecognized command line option '-fno-limit-debug-info'
+ninja: build stopped: subcommand failed.
+
+

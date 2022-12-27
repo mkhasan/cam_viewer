@@ -1,0 +1,7 @@
+Executable : /home/hasan/extension/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/5m6tm6c5/armeabi-v7a
+native-lib
+jvmArgs : 
+

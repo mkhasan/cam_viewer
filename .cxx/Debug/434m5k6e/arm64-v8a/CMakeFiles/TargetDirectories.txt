@@ -1,0 +1,3 @@
+/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/434m5k6e/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/434m5k6e/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/434m5k6e/arm64-v8a/CMakeFiles/native-lib.dir

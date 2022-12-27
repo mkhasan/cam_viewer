@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/6m5q4v4d/armeabi-v7a'
+ninja: no work to do.

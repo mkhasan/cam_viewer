@@ -1,0 +1,31 @@
+[
+{
+  "directory": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/5m6tm6c5/armeabi-v7a",
+  "command": "/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi23 --sysroot=/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_lib_EXPORTS -I/home/hasan/external/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/external/lib/android/libyuv-android-master/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o -c /home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/native-lib.cpp",
+  "file": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/native-lib.cpp"
+},
+
+{
+  "directory": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/5m6tm6c5/armeabi-v7a",
+  "command": "/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi23 --sysroot=/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/hasan/external/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/external/lib/android/libyuv-android-master/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/queue.c.o   -c /home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/queue.c",
+  "file": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/queue.c"
+},
+
+{
+  "directory": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/5m6tm6c5/armeabi-v7a",
+  "command": "/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi23 --sysroot=/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/hasan/external/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/external/lib/android/libyuv-android-master/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/player.c.o   -c /home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/player.c",
+  "file": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/player.c"
+},
+
+{
+  "directory": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/5m6tm6c5/armeabi-v7a",
+  "command": "/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi23 --sysroot=/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/hasan/external/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/external/lib/android/libyuv-android-master/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/decode.c.o   -c /home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/decode.c",
+  "file": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/decode.c"
+},
+
+{
+  "directory": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/5m6tm6c5/armeabi-v7a",
+  "command": "/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi23 --sysroot=/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_lib_EXPORTS -I/home/hasan/external/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/external/lib/android/libyuv-android-master/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/convert.cpp.o -c /home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/convert.cpp",
+  "file": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/convert.cpp"
+}
+]

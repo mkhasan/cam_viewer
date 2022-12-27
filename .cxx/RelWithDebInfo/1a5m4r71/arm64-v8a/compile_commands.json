@@ -1,0 +1,31 @@
+[
+{
+  "directory": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/RelWithDebInfo/1a5m4r71/arm64-v8a",
+  "command": "/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_lib_EXPORTS -I/home/hasan/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/extension/libyuv-android/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o -c /home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/native-lib.cpp",
+  "file": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/native-lib.cpp"
+},
+
+{
+  "directory": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/RelWithDebInfo/1a5m4r71/arm64-v8a",
+  "command": "/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/hasan/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/extension/libyuv-android/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/queue.c.o   -c /home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/queue.c",
+  "file": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/queue.c"
+},
+
+{
+  "directory": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/RelWithDebInfo/1a5m4r71/arm64-v8a",
+  "command": "/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/hasan/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/extension/libyuv-android/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/player.c.o   -c /home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/player.c",
+  "file": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/player.c"
+},
+
+{
+  "directory": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/RelWithDebInfo/1a5m4r71/arm64-v8a",
+  "command": "/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/hasan/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/extension/libyuv-android/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/decode.c.o   -c /home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/decode.c",
+  "file": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/decode.c"
+},
+
+{
+  "directory": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/RelWithDebInfo/1a5m4r71/arm64-v8a",
+  "command": "/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --gcc-toolchain=/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/hasan/extension/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_lib_EXPORTS -I/home/hasan/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/extension/libyuv-android/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/convert.cpp.o -c /home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/convert.cpp",
+  "file": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/convert.cpp"
+}
+]

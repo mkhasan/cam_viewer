@@ -1,0 +1,38 @@
+ninja: Entering directory `/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/5m6tm6c5/armeabi-v7a'
+[1/6] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/convert.cpp.o
+FAILED: CMakeFiles/native-lib.dir/src/main/cpp/convert.cpp.o 
+/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi23 --sysroot=/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_lib_EXPORTS -I/home/hasan/external/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/external/lib/android/libyuv-android-master/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-lib.dir/src/main/cpp/convert.cpp.o -MF CMakeFiles/native-lib.dir/src/main/cpp/convert.cpp.o.d -o CMakeFiles/native-lib.dir/src/main/cpp/convert.cpp.o -c ../../../../src/main/cpp/convert.cpp
+In file included from ../../../../src/main/cpp/convert.cpp:5:
+../../../../src/main/cpp/convert.h:15:10: fatal error: 'libyuv/basic_types.h' file not found
+#include <libyuv/basic_types.h>
+         ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[2/6] Building C object CMakeFiles/native-lib.dir/src/main/cpp/decode.c.o
+FAILED: CMakeFiles/native-lib.dir/src/main/cpp/decode.c.o 
+/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi23 --sysroot=/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/hasan/external/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/external/lib/android/libyuv-android-master/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-lib.dir/src/main/cpp/decode.c.o -MF CMakeFiles/native-lib.dir/src/main/cpp/decode.c.o.d -o CMakeFiles/native-lib.dir/src/main/cpp/decode.c.o   -c ../../../../src/main/cpp/decode.c
+../../../../src/main/cpp/decode.c:5:10: fatal error: 'libswscale/swscale.h' file not found
+#include <libswscale/swscale.h>
+         ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[3/6] Building C object CMakeFiles/native-lib.dir/src/main/cpp/player.c.o
+FAILED: CMakeFiles/native-lib.dir/src/main/cpp/player.c.o 
+/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi23 --sysroot=/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/hasan/external/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/external/lib/android/libyuv-android-master/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-lib.dir/src/main/cpp/player.c.o -MF CMakeFiles/native-lib.dir/src/main/cpp/player.c.o.d -o CMakeFiles/native-lib.dir/src/main/cpp/player.c.o   -c ../../../../src/main/cpp/player.c
+../../../../src/main/cpp/player.c:8:10: fatal error: 'libswscale/swscale.h' file not found
+#include <libswscale/swscale.h>
+         ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[4/6] Building C object CMakeFiles/native-lib.dir/src/main/cpp/queue.c.o
+../../../../src/main/cpp/queue.c:75:5: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+    memset(queue->tab, 0, sizeof(*queue->tab) * size);
+    ^
+../../../../src/main/cpp/queue.c:75:5: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+1 warning generated.
+[5/6] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+FAILED: CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o 
+/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi23 --sysroot=/home/hasan/extension/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_lib_EXPORTS -I/home/hasan/external/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/hasan/external/lib/android/libyuv-android-master/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o -MF CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o.d -o CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o -c ../../../../src/main/cpp/native-lib.cpp
+In file included from ../../../../src/main/cpp/native-lib.cpp:21:
+../../../../src/main/cpp/player.h:23:10: fatal error: 'libavcodec/avcodec.h' file not found
+#include <libavcodec/avcodec.h>
+         ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.

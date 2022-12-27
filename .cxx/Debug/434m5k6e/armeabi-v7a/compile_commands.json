@@ -1,0 +1,31 @@
+[
+{
+  "directory": "/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/434m5k6e/armeabi-v7a",
+  "command": "/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi23 --gcc-toolchain=/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_lib_EXPORTS -I/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/mecasys/extension/libyuv-android/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o -c /home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/native-lib.cpp",
+  "file": "/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/native-lib.cpp"
+},
+
+{
+  "directory": "/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/434m5k6e/armeabi-v7a",
+  "command": "/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi23 --gcc-toolchain=/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/mecasys/extension/libyuv-android/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/queue.c.o   -c /home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/queue.c",
+  "file": "/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/queue.c"
+},
+
+{
+  "directory": "/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/434m5k6e/armeabi-v7a",
+  "command": "/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi23 --gcc-toolchain=/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/mecasys/extension/libyuv-android/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/player.c.o   -c /home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/player.c",
+  "file": "/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/player.c"
+},
+
+{
+  "directory": "/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/434m5k6e/armeabi-v7a",
+  "command": "/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi23 --gcc-toolchain=/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/mecasys/extension/libyuv-android/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/decode.c.o   -c /home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/decode.c",
+  "file": "/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/decode.c"
+},
+
+{
+  "directory": "/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/434m5k6e/armeabi-v7a",
+  "command": "/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi23 --gcc-toolchain=/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/Android/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_lib_EXPORTS -I/home/mecasys/extension/RailRobot/FFmpeg/FFmpeg-Development-Kit-master/ffmpeg -I/home/mecasys/extension/libyuv-android/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/convert.cpp.o -c /home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/convert.cpp",
+  "file": "/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/src/main/cpp/convert.cpp"
+}
+]

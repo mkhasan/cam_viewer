@@ -1,0 +1,7 @@
+# ninja log v5
+0	57	1671363718	CMakeFiles/native-lib.dir/src/main/cpp/queue.c.o	8daf8374675f83cf
+1	94	1671363718	CMakeFiles/native-lib.dir/src/main/cpp/convert.cpp.o	b9ea47ebd3d0b3e4
+0	95	1671363718	CMakeFiles/native-lib.dir/src/main/cpp/player.c.o	c406a6f8e39f5165
+1	106	1671363718	CMakeFiles/native-lib.dir/src/main/cpp/decode.c.o	da310e61264a7ca7
+0	352	1671363719	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	9500058e3f9c0b22
+353	411	1671363719	../../../../build/intermediates/cxx/Debug/434m5k6e/obj/arm64-v8a/libnative-lib.so	49bbe7cbf51bdeb

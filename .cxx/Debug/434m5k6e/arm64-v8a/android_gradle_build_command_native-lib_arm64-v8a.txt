@@ -1,0 +1,7 @@
+Executable : /opt/Android/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/mecasys/extension/MyProjects/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/434m5k6e/arm64-v8a
+native-lib
+jvmArgs : 
+

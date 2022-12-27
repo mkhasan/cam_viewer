@@ -1,0 +1,51 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/hasan/extension/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/6m5q4v4d/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/hasan/extension/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/6m5q4v4d/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "/home/hasan/extension/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/.cxx/Debug/6m5q4v4d/armeabi-v7a",
+        "native-lib"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "native-lib",
+      "output": "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/build/intermediates/cxx/Debug/6m5q4v4d/obj/armeabi-v7a/libnative-lib.so",
+      "runtimeFiles": [
+        "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/myLibs/armeabi-v7a/libavutil.so",
+        "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/myLibs/armeabi-v7a/libswresample.so",
+        "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/myLibs/armeabi-v7a/libavcodec.so",
+        "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/myLibs/armeabi-v7a/libavformat.so",
+        "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/myLibs/armeabi-v7a/libswscale.so",
+        "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/myLibs/armeabi-v7a/libavfilter.so",
+        "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/myLibs/armeabi-v7a/libavdevice.so",
+        "/home/hasan/programs/MyProjects/LightWeight/AndroidStudioProjects/RobotControl/cam_viewer/src/main/myLibs/armeabi-v7a/libyuv.so"
+      ]
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
